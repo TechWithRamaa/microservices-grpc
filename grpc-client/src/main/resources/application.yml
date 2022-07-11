@@ -1,0 +1,5 @@
+grpc:
+  client:
+    grpc-engineeringwithramaa-service:
+      address: static://localhost:9000
+      negotiation-type: plaintext

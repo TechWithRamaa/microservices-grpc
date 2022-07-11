@@ -5,7 +5,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>proto</module>
-    </modules>
+		<module>grpc-service</module>
+		<module>grpc-client</module>
+	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
